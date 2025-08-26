@@ -10,4 +10,20 @@ OpenCV is an open-source computer vision and machine learning software library. 
 - Supports image & video processing, face detection, object recognition, and much more
 - Works with Python, C++, Java, etc.
 
+## Topics Covered
+
+- Reading and displaying images/videos
+- Image transformations (resize, rotate, crop)
+- 🖼Drawing shapes and text
+- Color space conversion (BGR ↔ HSV, etc.)
+- Face & eye detection using Haar cascades
+- Object tracking
+- Contours and edge detection
+
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/OpenCV-Library.git
+cd OpenCV-Library
 
