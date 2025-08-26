@@ -14,7 +14,7 @@ OpenCV is an open-source computer vision and machine learning software library. 
 
 - Reading and displaying images/videos
 - Image transformations (resize, rotate, crop)
-- 🖼Drawing shapes and text
+- Drawing shapes and text
 - Color space conversion (BGR ↔ HSV, etc.)
 - Face & eye detection using Haar cascades
 - Object tracking
