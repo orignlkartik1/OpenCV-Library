@@ -12,9 +12,9 @@ while True:
         print("Can't recieve frame.")
         break
 
-    frame=cv.imshow("Camera",frame)
+    cv.imshow("Camera",frame)
 
-    cv.waitkey(1)
+    k=cv.waitKey(1)
 
 
     # if you click "esc" then it stop running.

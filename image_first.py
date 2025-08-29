@@ -3,7 +3,7 @@ import cv2 as cv
 import sys
 
 # read an image file
-img=cv.imread("you_img_file",cv.IMREAD_GRAYSCALE) # In the second argument, I'm changing the color of image. By default, It is IMAGE_COLOR BGR (8-BIT format). You can use other formats.
+img=cv.imread("Image_0.png",cv.IMREAD_GRAYSCALE) # In the second argument, I'm changing the color of image. By default, It is IMAGE_COLOR BGR (8-BIT format). You can use other formats.
 
 # by using sys module if output is none, it stops the program
 if img is None:

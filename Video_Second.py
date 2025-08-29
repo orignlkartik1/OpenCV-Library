@@ -1,7 +1,7 @@
 import cv2 as cv
 
 # This function use for open camera. If you have more than two cameras you can pass argument 1,2,... . O is for your default camera.
-cap=cv.Videocapture(0) # you can also play any video passing file name in place of 0.
+cap=cv.VideoCapture(0) # you can also play any video passing file name in place of 0.
 
 four=cv.VideoWriter_fourcc(*'XVID')
 out=cv.VideoWriter("output.avi",four,20,(640,480))
